@@ -90,6 +90,3 @@ select * from details;
 select m.mov_title,min(r.rev_stars) as lower_ratings from movie m, ratings r group by m.mov_title;
 
 
-
-#xiii. Finally Mail the script to jeevan.raj@imarticus.com
-
